@@ -10,12 +10,9 @@ VALUES
     ('Product Manager', 140000, 2),
     ('Marcomm Manager', 90000, 3);
 
-INSERT INTO employee (first_name, last_name, role_id)
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
-    ('Ryan','Gleason',1),
-    ('Justin','Gleason',2),
-    ('Tyler','Gleason',2),
-    ('Adam','Peterson',1),
-    ('Daniel','Peterson',2),
-    ('Roscoe','Peterson',3),
-    ('Valerie','Gleason',1);
+    ('Adam','Peterson',1,null),
+    ('Daniel','Peterson',2,null),
+    ('Roscoe','Peterson',3,null),
+    ('Valerie','Gleason',1,null);
