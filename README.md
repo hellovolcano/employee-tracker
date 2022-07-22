@@ -1,7 +1,10 @@
 # Employee Tracker
 
 ## Description
-This command-line app is the front end to view, add, and update information about employees, roles, and departments in a MySQL database.
+This command-line app is the front end to view, add, and update information about employees, roles, and departments in a MySQL database. It was built using JavaScript running in NodeJS, and leverages a MySQL database to store information. 
+
+## Getting Started
+To start the application, run node index at the root of the application.
 
 ## Links
 
